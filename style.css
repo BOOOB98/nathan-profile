@@ -1,0 +1,94 @@
+/* Styles par défaut du body */
+body {
+    background-color: beige; /* Fond beige par défaut */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Aligner tout le texte au centre */
+    color: #333; /* Couleur du texte par défaut (gris foncé) */
+}
+
+/* Styles par défaut de la classe "container" */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 20px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+/* Styles pour les titres h1, h2 et h3 */
+h1, h2, h3 {
+    color: #8B4513; /* Couleur marron pour les titres */
+    text-decoration: none; /* Enlève le soulignement */
+}
+
+/* Styles par défaut de la classe "subtitle-box" */
+.subtitle-box {
+    background-color: #fff; /* Rectangle blanc autour du sous-titre */
+    padding: 20px; /* Espace intérieur du rectangle */
+    text-align: center; /* Aligner le texte au centre horizontalement */
+    margin: 20px auto; /* Espacement entre les rectangles (horizontalement centrés) */
+    border: 2px solid #8B4513; /* Bordure marron */
+    border-radius: 10px; /* Coins arrondis de la bordure */
+    max-width: 600px; /* Largeur maximale des rectangles */
+}
+
+/* Styles pour les titres h1, h2 et h3 dans la classe "subtitle-box" */
+.subtitle-box h1, .subtitle-box h2, .subtitle-box h3 {
+    background-color: White; /* Arrière-plan marron pour les titres dans les rectangles */
+    padding: 10px 0; /* Espace autour du texte du titre */
+    color: noir ; /* Couleur du texte blanc */
+}
+
+/* Styles pour les paragraphes (p) et listes non ordonnées (ul) dans la classe "subtitle-box" */
+.subtitle-box p, .subtitle-box ul {
+    margin: 0; /* Supprime la marge autour du texte du paragraphe et de la liste */
+    color: #333; /* Couleur du texte par défaut (gris foncé) */
+}
+
+/* Styles pour la section LinkedIn */
+.linkedin-section {
+    background-color: beige; /* Fond beige */
+    padding: 10px; /* Espace autour de la section LinkedIn */
+    text-align: center; /* Aligner le texte au centre horizontalement */
+}
+
+/* Style du titre de la section LinkedIn */
+.linkedin-title {
+    font-weight: bold; /* Titre en gras */
+    color: white ; /* Couleur marron pour le titre */
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #8B4513; /* Fond marron */
+    color: #fff; /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition de couleur sur 0.3s */
+}
+
+button:hover {
+    background-color: #A0522D; /* Fond marron plus sombre au survol */
+}
+
+.brown-button {
+    background-color: #8B4513; /* Marron */
+}
+
+/* Styles par défaut des rectangles */
+.subtitle-box {
+    background-color: #fff; /* Fond blanc par défaut */
+}
+
+a {
+    opacity: 0.5;
+    transition: opacity 0.4s;
+}
+
+a:hover {
+    opacity: 1;
